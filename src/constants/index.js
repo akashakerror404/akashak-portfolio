@@ -113,16 +113,42 @@ const technologies = [
     icon: docker,
   },
 ];
-
 const experiences = [
+  // {
+  //   title: "Internship",
+  //   company_name: "Brototype",
+  //   icon: starbucks,
+  //   iconBg: "#E6DEDD",
+  //   date: "October 2022 - Present",
+  //   points: [],
+  // },
   {
-    title: "Internship",
+    title: "Python Full Stack Developer",
+    company_name: "Stackerbee Technologies",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [],
+  },
+  {
+    title: "Python Full Stack Internship",
     company_name: "Brototype",
     icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "October 2022 - Present",
+    date: "Jan 2023 - jan 2024",
     points: [],
   },
+];
+
+const education = [
+  // {
+  //   title: "Internship",
+  //   company_name: "Brototype",
+  //   icon: starbucks,
+  //   iconBg: "#E6DEDD",
+  //   date: "October 2022 - Present",
+  //   points: [],
+  // },
   {
     title: "Diploma",
     company_name: "government polytechnic college meppadi",
@@ -401,4 +427,4 @@ const projects = [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, education,testimonials, projects };
